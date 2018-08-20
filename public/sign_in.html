@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>sign in</title>
+    <link rel="stylesheet" href="/public/css/style.css">
+</head>
+<body>
+    <h1>sign in</h1>
+
+        <label for="username">
+            <input type="text" id="username" placeholder="username" required>
+        </label>
+        <p id="userError"></p>
+
+        <label for="password">
+            <input type="password" id="password" placeholder="password" required>
+        </label>
+        <p id="passError"></p>
+
+        <button type="submit" id="button">Send</button>
+
+    <p>Create a new account <a href="#" id="signup">Sign up</a></p>
+
+
+    <script src="/public/js/logic.js"></script>
+    <script src="/public/js/sign_in.js"></script>
+    <script src="/public/js/fetch.js"></script>
+</body>
+</html>
